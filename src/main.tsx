@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-// import App from './App.tsx'
+import App from './App.tsx'
 
 import {
   createBrowserRouter,
@@ -13,7 +13,7 @@ import './index.css'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <div>Landing Page</div>
+    Component: App
   },
   {
     path: '/test',
