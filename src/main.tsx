@@ -9,6 +9,7 @@ import {
 } from 'react-router-dom';
 
 import './tailwind.css'
+import Carry from './Carry.tsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: '/test',
     element: <div>Test Page</div>
+  },
+  {
+    path: '/carry',
+    Component: Carry,
   }
 ]);
 
