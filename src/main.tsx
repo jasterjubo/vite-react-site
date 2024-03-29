@@ -8,7 +8,7 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 
-import './index.css'
+import './tailwind.css'
 
 const router = createBrowserRouter([
   {
